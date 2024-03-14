@@ -2,7 +2,6 @@ import * as path from 'path';
 import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
-  base: '/test-cd-demo/',
   root: path.join(__dirname, 'docs'),
   title: 'Rspress',
   description: 'Rspack-based Static Site Generator',
